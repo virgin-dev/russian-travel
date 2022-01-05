@@ -46,9 +46,6 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__llink/footer__link.css');
-
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
-}
+@import url('../fonts/fonts.css');
+@import url('../blocks/places/place/__paragraph/_down/place__paragraph_down.css');
+@import url('../blocks/places/place/__paragraphs/place__paragraphs.css');
