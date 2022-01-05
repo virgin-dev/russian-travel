@@ -1,5 +1,5 @@
 @media screen  and (min-width: 1280px) {
-    .intro__text_paragraph {
+    .intro__text-paragraph {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {
-    .intro__text_paragraph {
+    .intro__text-paragraph {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -20,7 +20,7 @@
 
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .intro__text_paragraph {
+    .intro__text-paragraph {
         width: 720px;
         height: 208px;
         font-weight: normal;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
-    .intro__text_paragraph {
+    .intro__text-paragraph {
         width: 94%;
         font-family: Inter;
         font-style: normal;
@@ -43,7 +43,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .intro__text_paragraph {
+    .intro__text-paragraph {
         font-size: 16px;
         line-height: 27px;
         width: 100%;
