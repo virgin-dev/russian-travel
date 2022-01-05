@@ -1,0 +1,6 @@
+.header__lang {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    min-width:80px;
+}

@@ -1,0 +1,52 @@
+@media screen  and (min-width: 1280px) {
+    .place__title {
+        max-width: 457px;
+        margin: 0;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 65px;
+        grid-area: place-title;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .place__title {
+        max-width: 457px;
+        margin: 0;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 65px;
+        grid-area: place-title;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .place__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        max-width: 440px;
+        max-height: 152px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 330px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 95%;
+        margin: 0;
+    }
+}

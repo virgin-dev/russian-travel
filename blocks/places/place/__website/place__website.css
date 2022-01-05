@@ -1,0 +1,38 @@
+@media screen  and (min-width: 1280px) {
+    .place__website {
+        grid-area: place-web;
+        position: relative;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .place__website {
+        grid-area: place-web;
+        position: relative;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .place__website {
+        grid-area: place-web;
+        position: relative;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .place__website {
+        grid-area: place-web;
+        position: relative;
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        display: none;
+        width: 100%;
+    }
+}
